@@ -1,0 +1,70 @@
+#header {
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 10px 0 10px 0;
+	font-family: 'Microsoft Yahei';
+	-webkit-box-shadow: 0 2px 4px 0px #e7e7e7;
+	-moz-box-shadow: 0 2px 4px 0px #e7e7e7;
+	-ms-box-shadow: 0 2px 4px 0px #e7e7e7;
+	box-shadow: 0 2px 4px 0px #e7e7e7;
+}
+
+#header .header-con {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+#header .logo {
+	float: left;
+}
+#header .logo .icon{
+	float: left;
+	width: 210px;
+	height: 50px;
+	background: url("../img/LOGO_WEPE.png");
+}
+#header .logo .slogon {
+	float: left;
+	margin-left: 5px;
+	width: 140px;
+	height: 50px;
+	background: url("../img/LOGO_SLOGAN.png");
+}
+
+#header .nav {
+	float: right;
+	font-size: 0;
+	height: 50px;
+	line-height: 50px;
+}
+#header .nav a {
+	position: relative;
+	font-size: 18px;
+	color: #515151;
+	text-decoration: none;
+	margin-left: 25px;
+}
+#header .nav a:first-child {
+	margin-left: 0;
+}
+#header .nav a i {
+	display: none;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	left: 0;
+	bottom: -23px;
+	font-size: 0;
+	background-color: #00b5e5;
+}
+#header .nav a:hover {
+	color: #00b5e5;
+}
+/*#header .nav a:hover i,*/
+#header .nav a.current i {
+	display: block;
+}
